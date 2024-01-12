@@ -1,0 +1,35 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0px; 
+    padding: 0px; 
+} 
+body{
+    background-color: rgb(256, 0, 0);
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 50px;
+    width: 160px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(255, 173, 65);
+}
+button:active{
+    background-color: rgb(95, 55, 1);
+}
+#code{
+   color:darkslategray;
+}
+
